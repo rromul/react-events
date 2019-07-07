@@ -1,0 +1,25 @@
+{
+  "name": "test-react-events",
+  "version": "1.0.0",
+  "description": "Test react lifecycle events",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/babel jsx -o compiled.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
